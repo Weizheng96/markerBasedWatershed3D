@@ -23,7 +23,7 @@ array<GVInt32, 6> getNeighbor(const GVInt32 idx, const GVInt32 width, const GVIn
 
     GVInt32 SLICE = width * height;
     GVInt32 z = idx / SLICE;
-    GVInt32 y = idx / width;
+    GVInt32 y = (idx % SLICE) / width;
     GVInt32 x = idx % width;
 
     array<GVInt32, 6> nIndex;
