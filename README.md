@@ -9,4 +9,4 @@ It should be very fast.
 
 No dependency needed.
 
-I referred the 2D traditional watershed code from, but this original code may contain bugs : https://ofstack.com/C++/22898/c++-watershed-algorithm-(watershed-algorithm).html
+I referred the 2D traditional watershed code from https://ofstack.com/C++/22898/c++-watershed-algorithm-(watershed-algorithm).html, but this original code may contain bugs.
